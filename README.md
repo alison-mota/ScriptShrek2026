@@ -1,15 +1,48 @@
-⚔️ Manual do Doutrinador: Como aplicar a lição
-Se algum fraudador tentou te dar o golpe ou aquele vendedor não para de te amolar, siga estes passos para iniciar o "processo de doutrinação":
-Prepare o Terreno: Abra o WhatsApp Web e clique direto na conversa do indivíduo que merece o roteiro completo de Shrek.
-Invoque o Terminal:
-Aperte F12 (ou Ctrl + Shift + I).
-Se estiver no Mac, use Cmd + Option + I.
-Acesse a Central de Comando: No painel que abrir, clique na aba Console.
-Execute a Doutrinação:
-Copie o código do script (que está aqui no repositório).
-Cole no Console e dê um Enter glorioso.
-Mantenha a Guarda Alta: Não mude de aba e não minimize o navegador enquanto o script estiver rodando. O navegador precisa "ver" a página ativa para continuar o bombardeio de mensagens.
-⚠️ Regras de Engajamento
-Paciência é uma virtude: O script tem um intervalo (delay) entre as frases. Isso serve para o WhatsApp não te banir por comportamento robótico imediato.
-O Alvo: Certifique-se de que a conversa certa está aberta. O script vai disparar no campo de texto que estiver focado.
-Responsabilidade: Use para combater o mal (fraudes e spam). Não seja você o vilão da história!
+# 🧅 Doutrinador de Fraudador ou Vendedor Chato
+
+Um script de "doutrinação em massa" via WhatsApp Web. Ideal para lidar com tentativas de golpe, robôs de telemarketing ou aquele vendedor que não entende o que significa "não tenho interesse". 
+
+O método? Um bombardeio pedagógico com o roteiro completo de **Shrek** (ou qualquer texto da sua escolha).
+
+---
+
+## ⚔️ Manual de Operações (Passo a Passo)
+
+Se o alvo apareceu e merece a lição, siga estas coordenadas:
+
+### 1. Preparar o Terreno
+Abra o [WhatsApp Web](https://web.whatsapp.com) no seu navegador e **entre na conversa** do indivíduo que será doutrinado. O cursor deve estar pronto para digitar.
+
+### 2. Abrir o Painel de Controle
+Com a conversa aberta, acesse as ferramentas de desenvolvedor do navegador:
+*   **Windows/Linux:** Pressione `F12` ou `Ctrl + Shift + I`.
+*   **Mac:** Pressione `Cmd + Option + I`.
+
+### 3. Invocando o Script
+No painel que abriu (geralmente à direita), clique na aba **Console**. 
+1. Copie o código do arquivo `script.js` deste repositório.
+2. Cole no console.
+3. Dê um **Enter** glorioso para iniciar o processo.
+
+### 4. Manter a Guarda Alta
+**Não mude de aba e não minimize o navegador** enquanto as frases estiverem sendo enviadas. O navegador precisa que a página esteja ativa para que o script continue o bombardeio.
+
+---
+
+## 🛡️ Regras de Engajamento
+
+*   **Paciência de Ogro:** O script possui um *delay* (atraso) entre as frases. Isso é proposital para que o sistema do WhatsApp não te desconecte por comportamento robótico imediato.
+*   **Alvo Único:** Certifique-se de que a conversa certa está selecionada. O script dispara no campo de texto que estiver focado no momento.
+*   **Ética de Combate:** Este script foi criado para combater o mal (fraudes e spam invasivo). Use com sabedoria.
+
+---
+
+## 🛠️ Por que o script antigo parou de funcionar?
+O WhatsApp Web atualizou sua estrutura (agora usa a biblioteca *Lexical*). Este script foi recalibrado para:
+1.  **Simular Digitação:** Disparar o evento de `input` para que o botão de enviar "nasça" no código.
+2.  **Busca por Ícone:** Encontrar o botão de envio pelo ID de teste (`data-testid="send"`) que é mais estável.
+3.  **Fallback de Teclado:** Se o botão físico falhar, ele tenta forçar um "Enter" via sistema.
+
+---
+
+> *"As cebolas têm camadas. Os chatos também, mas a gente vai descascando uma por uma até eles desistirem."* 🧅⚔️
