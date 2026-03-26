@@ -20,7 +20,7 @@ Com a conversa aberta, acesse as ferramentas de desenvolvedor do navegador:
 
 ### 3. Invocando o Script
 No painel que abriu (geralmente à direita), clique na aba **Console**. 
-1. Copie o código do arquivo `script.js` deste repositório.
+1. Copie o código do arquivo `ScriptShrekDoutrinador.js` deste repositório.
 2. Cole no console.
 3. Dê um **Enter** glorioso para iniciar o processo.
 
